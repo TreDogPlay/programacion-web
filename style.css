@@ -1,0 +1,44 @@
+      p{
+        color: blue;
+        border: 1px solid red;
+      }
+      #texto{
+        color: red;
+      }
+      .texto-verde{
+        color: green;
+      }
+      .centro{
+        text-align: center;
+      }
+      h1{
+        color: #C8A627;
+        border: 1px solid red;
+      }
+
+      /*body{
+        background-image: url("https://culturamania.com/wp-content/uploads/2022/03/The-Batman-wjpg-800x400.jpg");
+        background-repeat: no-repeat;
+
+
+      }*/
+      body{
+        background-color: rgb(230, 230, 230);
+        margin: 50px;
+      }
+
+      .margin1{
+        margin: 100px;
+        margin-bottom: 30px;
+        margin-left: 25px;
+        margin-right: 100px;
+        border: 1px solid black;
+      }
+
+      .margin1 > p{
+        margin: 15px;
+      }
+
+      
+      
+    
