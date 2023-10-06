@@ -1,17 +1,14 @@
-body{
+/* body{
     margin: 40px;
 }
 
 .container{
-    /* display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     background-color: #fff;
     grid-gap: 15px;
-    color: #444; */
-    width: 100%;
-    max-width: 1200px; /* Puedes ajustar este valor según tus preferencias */
-    margin: 0 auto;
+    color: #444;
 }
 
 .box{
@@ -32,12 +29,131 @@ body{
 }
 
 .aside{
-    grid-column: 5/6;
-    grid-row: 2/2;
+    grid-column: 5/5;
+    grid-row: 2/4;
     
 }
 
 .footer{
     grid-column: 1/6;
     
+} */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de la cabecera */
+.header {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.header h1 {
+    color: #333;
+}
+
+/* Estilos de las secciones de artículo */
+.article {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.article h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.article p {
+    color: #666;
+}
+
+.article ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Estilos de la barra lateral */
+.aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.aside h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos de la tabla de información nutricional */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos del formulario de contacto */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
 }
