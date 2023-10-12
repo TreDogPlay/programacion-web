@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+<div class="navbar sticky">
     <div class="navbar">
         <div class="Container flex">
             <h1 class="Logo">Transportadora Bejar</h1>
@@ -22,7 +23,7 @@
                     </li>
 
                     <li class="nav">
-                        <a href="" class="outline">Catalogo</a>
+                        <a href="" class="outline">Reservas</a>
                     </li>
 
                     <li class="nav">
@@ -32,6 +33,7 @@
             </nav>
         </div>
     </div>
+</div>
     <section class="showcase">
         <div class="Container">
             <div class="grid">
@@ -85,7 +87,7 @@
             <div class="testimonial grid-3">
                 <div class="card">
                     <div class="circle">
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Fpersonas&psig=AOvVaw3W1CahL24Jkl9AjXCz6HOL&ust=1696640967474000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjDyaOe4IEDFQAAAAAdAAAAABAE" alt="">
+                        <img src="Imagenes/Testimonio3.png" alt="">
                     </div>
                     <h3 class="title-card">Lucia</h3>
                     <p>"Mi experiencia con Transportadora Bejar fue excepcional. Cuando llegué al aeropuerto, su conductor estaba esperándome con un cartel con mi nombre, lo que hizo que mi llegada se sintiera muy especial. El viaje al hotel fue cómodo y seguro. Sin duda, volveré a elegirlos en mi próximo viaje."
@@ -93,7 +95,7 @@
                 </div>
                 <div class="card">
                     <div class="circle">
-                        <img src="images/artworks-0Ppladez1IquixCH-6Y8VHg-t500x500.jpg" alt="">
+                        <img src="Imagenes/Testimonio1.jpg" alt="">
                     </div>
                     <h3 class="title-card">Pedro</h3>
                     <p>"¡Qué servicio tan eficiente y amigable! Viajé con mi familia y Transportadora Bejar se aseguró de que todos estuviéramos cómodos en el vehículo. El conductor también nos brindó información útil sobre la ciudad durante el trayecto. Fue un excelente comienzo para nuestras vacaciones."
@@ -101,7 +103,7 @@
                 </div>
                 <div class="card">
                     <div class="circle">
-                        <img src="images/images.jpg" alt="">
+                        <img src="Imagenes/Testimonio22.jpg" alt="">
                     </div>
                     <h3 class="title-card">Jose</h3>
                     <p>"La puntualidad de Transportadora Bejar es impresionante. Mi vuelo llegó muy temprano en la mañana, y aún así, su conductor estaba allí para recogerme. Me llevaron a mi hotel sin problemas y con un servicio amable. Definitivamente, los recomendaría a cualquier turista que busque comodidad y confiabilidad en su transporte."
@@ -111,10 +113,73 @@
         </div>
     </section>
 
+    <section class="tarifas">
+        <h2>Tarifas</h2>
+      
+        <table>
+          <thead>
+            <tr>
+              <th>Traslado</th>
+              <th>Tarifa por persona</th>
+              <th>Tarifa familiar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aeropuerto de Cancún a Zona Hotelera Cancún</td>
+              <td>$1200 pesos</td>
+              <td>$3000 pesos (2 adultos + 2 niños)</td>
+            </tr>
+            <tr>
+              <td>Aeropuerto de Cancún a Riviera Maya</td>
+              <td>$2500 pesos</td>
+              <td>$5000 pesos (2 adultos + 2 niños)</td>
+            </tr>
+            <!-- Agrega más filas para otros traslados -->
+          </tbody>
+        </table>
+      </section>
+
+    <div class="form-container">
+        <h2 class="contact-heading">Contactanos</h2>
+
+    <form action="tu_script_de_procesamiento.php" method="POST" class="contact-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      
+        <button type="submit" class="submit-button">Enviar</button>
+      </form>
+    </div>
+
+    <section class="faq">
+        <h2>Preguntas Frecuentes</h2>
+      
+        <div class="faq-item">
+          <h3 class="faq-question">¿Cuáles son los métodos de pago aceptados?</h3>
+          <p class="faq-answer">Aceptamos pagos con tarjeta de crédito, transferencia bancaria y efectivo en nuestras oficinas.</p>
+        </div>
+      
+        <div class="faq-item">
+          <h3 class="faq-question">¿Cómo puedo realizar una reserva?</h3>
+          <p class="faq-answer">Puedes realizar una reserva en línea a través de nuestro sitio web o contactándonos por teléfono o correo electrónico.</p>
+        </div>
+      
+        <div class="faq-item">
+          <h3 class="faq-question">¿Qué medidas de seguridad se toman durante los traslados?</h3>
+          <p class="faq-answer">Nuestros conductores están capacitados en medidas de seguridad y desinfección. También desinfectamos nuestros vehículos regularmente.</p>
+        </div>
+      </section>
+
     <footer>
         <div class="container grid-3">
             <div class="copyright">
-                <h3>UPQROO</h3>
+                <h3>Transportadora Bejar</h3>
                 <p>copyright &copy; 2023</p>
             </div>
             <nav class="link">
